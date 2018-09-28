@@ -96,7 +96,7 @@ class ZMQConan(ConanFile):
                 runtime = '-gd' if self.options.shared else '-sgd'
             else:
                 runtime = '' if self.options.shared else '-s'
-            library_name = 'libzmq-mt%s-%s.lib' % (runtime, version)
+            library_name = 'libzmq-v%s0-mt%s-%s.lib' % (self.settings.compiler.version, runtime, version)
             self.cpp_info.libs = [library_name, 'ws2_32', 'Iphlpapi']
         else:
             self.cpp_info.libs = ['zmq']
