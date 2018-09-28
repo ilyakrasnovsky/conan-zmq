@@ -32,7 +32,7 @@ mark_as_advanced(ZeroMQ_LIBRARY ZeroMQ_INCLUDE_DIR)
 
 set(ZeroMQ_MAJOR_VERSION "4")
 set(ZeroMQ_MINOR_VERSION "2")
-set(ZeroMQ_PATCH_VERSION "2")
+set(ZeroMQ_PATCH_VERSION "4")
 set(ZeroMQ_VER "${ZeroMQ_MAJOR_VERSION}.${ZeroMQ_MINOR_VERSION}.${ZeroMQ_PATCH_VERSION}")
 set(ZeroMQ_VERSION ${ZeroMQ_VER})
 
